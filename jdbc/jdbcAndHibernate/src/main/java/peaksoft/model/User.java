@@ -1,8 +1,11 @@
 package peaksoft.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 
+@Entity
 @Table
+@AllArgsConstructor
 public class User {
     @Id
     private Long id;
